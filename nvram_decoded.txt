@@ -1,0 +1,961 @@
+model_verify
+start_file
+E5577s-321
+end_file
+softversion_verify
+start_file
+21.333.01.00.00
+end_file
+system_mode
+start_file
+2
+end_file
+system_Acqorder
+start_file
+2
+end_file
+system_Band
+start_file
+3FFFFFFF
+end_file
+system_Srvdomain
+start_file
+2
+end_file
+dailup_file:
+/app/webroot/data/userdata/dialup/config.xml
+start_file:
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<roam_connect>1</roam_connect>
+<current_profile>1</current_profile>
+<imsi_match_profile_md5>6B0CCCED450A7328B6B86B001A92B362</imsi_match_profile_md5>
+<customer_profile_md5>EB0D2CA50EC933B53D66BED88503BFD8</customer_profile_md5>
+<profile_imsi>250203392338097</profile_imsi>
+</config>
+
+end_file:
+profile_list_file:
+/app/webroot/data/userdata/dialup/profilelist.xml
+start_file:
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<profile>
+<index>1</index>
+<is_valid>1</is_valid>
+<profile_name>Tele2 RU</profile_name>
+<apn_is_static>1</apn_is_static>
+<apn>internet.tele2.ru</apn>
+<dialup_num>*99#</dialup_num>
+<username/>
+<password/>
+<auth_mode>0</auth_mode>
+<ip_is_static>0</ip_is_static>
+<ip_address/>
+<ipv6_address/>
+<dns_is_static>0</dns_is_static>
+<primary_dns/>
+<secondary_dns/>
+<primary_ipv6_dns/>
+<secondary_ipv6_dns/>
+<read_only>2</read_only>
+<ip_type>0</ip_type>
+<is_encrypt>1</is_encrypt>
+</profile>
+<profile>
+<index>2</index>
+<is_valid>1</is_valid>
+<profile_name>Rostelecom</profile_name>
+<apn_is_static>1</apn_is_static>
+<apn>internet.rtk.ru</apn>
+<dialup_num>*99#</dialup_num>
+<username/>
+<password/>
+<auth_mode>0</auth_mode>
+<ip_is_static>0</ip_is_static>
+<ip_address/>
+<ipv6_address/>
+<dns_is_static>0</dns_is_static>
+<primary_dns/>
+<secondary_dns/>
+<primary_ipv6_dns/>
+<secondary_ipv6_dns/>
+<read_only>2</read_only>
+<ip_type>0</ip_type>
+<is_encrypt>1</is_encrypt>
+</profile>
+</config>
+
+end_file:
+lan_config_file:
+/app/webroot/data/userdata/lan/config.xml
+start_file:
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+</config>
+
+end_file:
+firewall_config_file:
+/app/webroot/data/userdata/firewall/config.xml
+start_file:
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+</config>
+
+end_file:
+ipfilter_file:
+/app/webroot/data/userdata/firewall/ipfilter.xml
+start_file:
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<ipfilters>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+<ipfilter>
+<lanipfilterprotocol>0</lanipfilterprotocol>
+<lanipfilterstatus>0</lanipfilterstatus>
+<lanipfilterlanstartaddress/>
+<lanipfilterlanendaddress/>
+<lanipfilterlanstartport>0</lanipfilterlanstartport>
+<lanipfilterlanendport>0</lanipfilterlanendport>
+<lanipfilterwanstartaddress/>
+<lanipfilterwanendaddress/>
+<lanipfilterwanstartport>0</lanipfilterwanstartport>
+<lanipfilterwanendport>0</lanipfilterwanendport>
+<lanipfiltersrcstartipmask>0</lanipfiltersrcstartipmask>
+<lanipfilterdeststartipmask>0</lanipfilterdeststartipmask>
+<lanipfilterpolicy>0</lanipfilterpolicy>
+<lanipfiltersrcprefix>128</lanipfiltersrcprefix>
+<lanipfilterdestprefix>128</lanipfilterdestprefix>
+<lanipfilterflag>0</lanipfilterflag>
+</ipfilter>
+</ipfilters>
+</config>
+
+end_file:
+specialapp_file:
+/app/webroot/data/userdata/firewall/specialapp.xml
+start_file:
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<lanports>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+		<lanport>
+			<specialapplicationtriggername/>
+			<specialapplicationtriggerport>0</specialapplicationtriggerport>
+			<specialapplicationtriggerportend>0</specialapplicationtriggerportend>
+			<specialapplicationtriggerprotocol>0</specialapplicationtriggerprotocol>
+			<specialapplicationstartopenport0>0</specialapplicationstartopenport0>
+			<specialapplicationendopenport0>0</specialapplicationendopenport0>
+			<specialapplicationstartopenport1>0</specialapplicationstartopenport1>
+			<specialapplicationendopenport1>0</specialapplicationendopenport1>
+			<specialapplicationstartopenport2>0</specialapplicationstartopenport2>
+			<specialapplicationendopenport2>0</specialapplicationendopenport2>
+			<specialapplicationstartopenport3>0</specialapplicationstartopenport3>
+			<specialapplicationendopenport3>0</specialapplicationendopenport3>
+			<specialapplicationstartopenport4>0</specialapplicationstartopenport4>
+			<specialapplicationendopenport4>0</specialapplicationendopenport4>
+			<specialapplicationtriggerstatus>0</specialapplicationtriggerstatus>
+			<specialapplicationopenprotocol>0</specialapplicationopenprotocol>
+		</lanport>
+	</lanports>
+</config>
+
+end_file:
+virtualserver_file:
+/app/webroot/data/userdata/firewall/virtualserver.xml
+start_file:
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<servers>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+<server>
+<virtualserveripname/>
+<virtualserverstatus>0</virtualserverstatus>
+<virtualserverremoteip/>
+<virtualserverwanport>0</virtualserverwanport>
+<virtualserverwanportend>0</virtualserverwanportend>
+<virtualserverlanport>0</virtualserverlanport>
+<virtualserveripaddress/>
+<virtualserverprotocol>0</virtualserverprotocol>
+</server>
+</servers>
+</config>
+
+end_file:
+device_config_file:
+/app/webroot/data/userdata/device/config.xml
+start_file:
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<restore_default_status>0</restore_default_status>
+<gdpr_approve_version>2017-10</gdpr_approve_version>
+</config>
+
+end_file:
+global_config_file:
+/app/webroot/data/userdata/global/config.xml
+start_file:
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<custom_dir>250203392338097</custom_dir>
+<imsi_string>250203392338097</imsi_string>
+<sim_state>2</sim_state>
+</config>
+
+end_file:
+webserver_config_file:
+/app/webroot/data/userdata/webserver/config.xml
+start_file:
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<user>
+<passwordencryped>4</passwordencryped>
+<password_with_session>OGM2OTc2ZTViNTQxMDQxNWJkZTkwOGJkNGRlZTE1ZGZiMTY3YTljODczZmM0YmI4YTgxZjZmMmFiNDQ4YTkxOA==</password_with_session>
+<password_status>0</password_status>
+<extern_password_type>1</extern_password_type>
+<iterations>100</iterations>
+<salt>fd4b1e6ad1b05db6ff288928fed3005ef4fdc9ade8be276220a8f41adcccda29</salt>
+<serverkey>b63f2ee99cfd6236f56120f768657c22447ead946953924a7a574f6fbc25bbdd</serverkey>
+<storykey>e5fcafca4ed05640d53e2083d843e887b9d8f8ee79a7d72bd5086d6189ddd34d</storykey>
+</user>
+</config>
+
+end_file:
+upnp_config_file:
+/app/webroot/data/userdata/upnp/config.xml
+start_file:
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<config>
+</config>
+
+
+
+end_file:
+wifi_config_file:
+/app/webroot/data/userdata/wifi/config.xml
+start_file:
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<nvswitch>1</nvswitch>
+<ssid0>
+<wifibasic>
+<wifiworkmode>0</wifiworkmode>
+<wifienable>1</wifienable>
+<wifichannel>0</wifichannel>
+<wifihide>0</wifihide>
+<wificountry>RU</wificountry>
+<wifimode>b&#x2F;g&#x2F;n</wifimode>
+<wifirate>0</wifirate>
+<wifiisolate>0</wifiisolate>
+<wifioffenable>1</wifioffenable>
+<wifiofftime>600</wifiofftime>
+<wifibandwidth>20</wifibandwidth>
+<wifimaxassoc>10</wifimaxassoc>
+<wifiantennanum>2</wifiantennanum>
+<wifiautocountryswitch>1</wifiautocountryswitch>
+<wifitotalswich>1</wifitotalswich>
+<wifiguestofftime>0</wifiguestofftime>
+</wifibasic>
+</ssid0>
+<ssid1/>
+</config>
+
+end_file:
+offload_config_file:
+/app/webroot/data/userdata/wifistation/config.xml
+start_file:
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<sta_policy>0</sta_policy>
+<oper_profile_cp>0</oper_profile_cp>
+</config>
+
+end_file:
+<checksum>31557854</checksum>
